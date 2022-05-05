@@ -13,8 +13,8 @@ export const AppRoute: React.FunctionComponent<{}> = () => {
 		<BrowserRouter>
 			<Switch>
 				<Route exact path="/" component={ProfileSearchWrapperPage} />
-				<Route exact path="/errorpage" component={ErrorPage} />
-				<Route exact path="/errorpage/:id" component={ErrorPage} />
+				// <Route exact path="/errorpage" component={ErrorPage} />
+				// <Route exact path="/errorpage/:id" component={ErrorPage} />
 			</Switch>
 		</BrowserRouter>
 
